@@ -23,7 +23,7 @@ public class TrackerDockerSteps {
 	
 	@Before
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "C:/Development/web_driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/tools/selenium/chromedriver.exe");
 
 		driver = new ChromeDriver();
 
